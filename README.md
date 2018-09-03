@@ -2,6 +2,26 @@
 
 ![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
+## Setup
+
+see: https://jekyllrb.com/docs/quickstart/
+
+```bash
+# Install Bundler through RubyGems
+gem install bundler
+
+# Add Jekyll to your Gemfile and install its dependencies
+bundle add jekyll && bundle install
+
+# Change into your new directory
+cd flexible-jekyll
+
+# Build the site on the preview server
+bundle exec jekyll serve --config _config.yml
+
+# Now browse to http://localhost:4000
+```
+
 ## Demo
 
 Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
